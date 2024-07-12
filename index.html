@@ -1,0 +1,1960 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Elon Musk ||BTC Giveaway</title>
+    <!-- favicon -->
+
+    <link
+      rel="shortcut icon"
+      href="https://cdnjs.cloudflare.com/ajax/libs/faviconx/1.0.1/faviconx-min.js"
+      type="image/x-icon"
+    />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!-- styles css -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <style>
+    /*
+=============== 
+Fonts
+===============
+*/
+    @import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
+
+    /*
+=============== 
+Variables
+===============
+*/
+
+    :root {
+      /* dark shades of primary color*/
+      --clr-primary-1: hsl(184, 91%, 17%);
+      --clr-primary-2: hsl(185, 84%, 25%);
+      --clr-primary-3: hsl(185, 81%, 29%);
+      --clr-primary-4: hsl(184, 77%, 34%);
+      /* primary/main color */
+      --clr-primary-5: hsl(185, 62%, 45%);
+      /* lighter shades of primary color */
+      --clr-primary-6: hsl(185, 57%, 50%);
+      --clr-primary-7: hsl(184, 65%, 59%);
+      --clr-primary-8: hsl(184, 80%, 74%);
+      --clr-primary-9: hsl(185, 94%, 87%);
+      --clr-primary-10: hsl(186, 100%, 94%);
+      /* darkest grey - used for headings */
+      --clr-grey-1: hsl(209, 61%, 16%);
+      --clr-grey-2: hsl(211, 39%, 23%);
+      --clr-grey-3: hsl(209, 34%, 30%);
+      --clr-grey-4: hsl(209, 28%, 39%);
+      /* grey used for paragraphs */
+      --clr-grey-5: hsl(210, 22%, 49%);
+      --clr-grey-6: hsl(209, 23%, 60%);
+      --clr-grey-7: hsl(211, 27%, 70%);
+      --clr-grey-8: hsl(210, 31%, 80%);
+      --clr-grey-9: hsl(212, 33%, 89%);
+      --clr-grey-10: hsl(210, 36%, 96%);
+      --clr-white: #fff;
+      --ff-primary: "Lato", sans-serif;
+      --transition: all 0.3s linear;
+      --spacing: 0.25rem;
+      --radius: 0.5rem;
+      --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+    /*
+=============== 
+Global Styles
+===============
+*/
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: var(--ff-primary);
+      background: var(--clr-white);
+      color: var(--clr-grey-1);
+      line-height: 1.5;
+      font-size: 0.875rem;
+    }
+    ul {
+      list-style-type: none;
+    }
+    a {
+      text-decoration: none;
+    }
+    img:not(.nav-logo) {
+      width: 100%;
+      display: block;
+    }
+    @media screen and (min-width: 992px) {
+      .nav-logo {
+        margin-left: -1.8rem;
+      }
+    }
+    h1,
+    h2,
+    h3,
+    h4 {
+      letter-spacing: var(--spacing);
+      text-transform: capitalize;
+      line-height: 1.25;
+      margin-bottom: 0.75rem;
+    }
+    h1 {
+      font-size: 3rem;
+    }
+    h2 {
+      font-size: 2rem;
+    }
+    h3 {
+      font-size: 1.25rem;
+    }
+    h4 {
+      font-size: 0.875rem;
+    }
+    p {
+      margin-bottom: 1.25rem;
+      color: var(--clr-grey-5);
+    }
+    @media screen and (min-width: 800px) {
+      h1 {
+        font-size: 4rem;
+      }
+      h2 {
+        font-size: 2.5rem;
+      }
+      h3 {
+        font-size: 1.75rem;
+      }
+      h4 {
+        font-size: 1rem;
+      }
+      body {
+        font-size: 1rem;
+      }
+      h1,
+      h2,
+      h3,
+      h4 {
+        line-height: 1;
+      }
+    }
+    /*  global classes */
+
+    .btn {
+      text-transform: uppercase;
+      background: var(--clr-primary-5);
+      color: var(--clr-white);
+      padding: 0.375rem 0.75rem;
+      letter-spacing: var(--spacing);
+      display: inline-block;
+      /* font-weight: 700; */
+      transition: var(--transition);
+      font-size: 0.875rem;
+      border: 2px solid transparent;
+      cursor: pointer;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+/*       margin-top: -1rem; */
+    }
+    .btn:hover {
+      color: var(--clr-primary-1);
+      background: var(--clr-primary-8);
+    }
+    .section {
+      padding: 5rem 0;
+    }
+    .section-title {
+      text-align: center;
+      /* margin-bottom: 4rem; */
+    }
+    .section-title h2 {
+      text-transform: uppercase;
+    }
+    .section-title span {
+      color: var(--clr-primary-5);
+    }
+    .section-center {
+      width: 90vw;
+      margin: 0 auto;
+      max-width: 1170px;
+    }
+    @media screen and (min-width: 992px) {
+      .section-center {
+        width: 95vw;
+      }
+    }
+    /*
+=============== 
+Navbar
+===============
+*/
+    .nav-links {
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: var(--clr-white);
+      box-shadow: var(--dark-shadow);
+      z-index: 2;
+    }
+    .nav-icons {
+      display: none;
+    }
+    .nav-center {
+      width: 100%;
+      max-width: 1170px;
+      margin: 0 auto;
+    }
+    .nav-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+    }
+    .nav-toggle {
+      background: transparent;
+      border: transparent;
+      font-size: 1.5rem;
+      color: var(--clr-primary-5);
+      cursor: pointer;
+      transition: var(--transition);
+    }
+    .nav-toggle:hover {
+      transform: scale(1.2);
+    }
+    .nav-link {
+      display: block;
+      padding: 1rem 2rem;
+      text-transform: capitalize;
+      letter-spacing: var(--spacing);
+      transition: var(--transition);
+      color: var(--clr-grey-1);
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    .nav-link:hover {
+      color: var(--clr-primary-1);
+      background: var(--clr-primary-8);
+      padding-left: 2.25rem;
+    }
+    /* 280px */
+    .nav-links {
+      height: 0;
+      overflow: hidden;
+      transition: var(--transition);
+    }
+    .show-links {
+      height: 280px;
+    }
+    @media screen and (min-width: 992px) {
+      /* hide toggle button */
+      .navbar {
+        padding: 1rem 2rem;
+      }
+      .nav-toggle {
+        display: none;
+      }
+      .nav-center {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* optional */
+        flex-wrap: wrap;
+      }
+      .nav-links {
+        height: auto;
+        display: flex;
+      }
+      .nav-header {
+        padding: 0 0;
+      }
+      .nav-link {
+        padding: 0 0;
+        margin-right: 0.7rem;
+      }
+      .nav-link:hover {
+        padding: 0;
+        color: var(--clr-primary-5);
+        background: transparent;
+      }
+      .nav-icons {
+        display: flex;
+      }
+      .nav-icon {
+        margin-right: 0.7rem;
+        color: var(--clr-primary-5);
+        font-size: 1.2rem;
+        transition: var(--transition);
+      }
+      .nav-icon:hover {
+        color: var(--clr-primary-8);
+      }
+    }
+    /*
+=============== 
+Hero
+===============
+*/
+    .hero {
+      min-height: 100vh;
+      background-image: linear-gradient(rgb(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7)),
+        url('https://media.licdn.com/dms/image/D4E12AQHT8pl2uu_zww/article-cover_image-shrink_720_1280/0/1659658009903?e=2147483647&v=beta&t=NfeHl_L_91ep77104gIskK17g9AKfO7Dfw4OSK-WlHc')
+          center/cover no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .hero-banner {
+      text-align: center;
+      color: var(--clr-white);
+      padding: 0 3rem;
+    }
+    .hero-banner h1 {
+      text-transform: uppercase;
+    }
+    .hero-banner p {
+      max-width: 35rem;
+      margin-left: auto;
+      margin-right: auto;
+      color: var(--clr-white);
+      letter-spacing: var(--spacing);
+    }
+    .hero-btn {
+      padding: 0.9rem 1.6rem;
+      font-size: 1.25rem;
+      background: var(--clr-white);
+      color: var(--clr-primary-5);
+    }
+    .hero-btn:hover {
+      background: transparent;
+      color: var(--clr-white);
+      border-color: var(--clr-white);
+    }
+    @media screen and (min-width: 768px) {
+      .hero {
+        background-image: linear-gradient(rgb(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7)),
+          url('https://media.licdn.com/dms/image/D4E12AQHT8pl2uu_zww/article-cover_image-shrink_720_1280/0/1659658009903?e=2147483647&v=beta&t=NfeHl_L_91ep77104gIskK17g9AKfO7Dfw4OSK-WlHc')
+            center/cover no-repeat;
+      }
+      .hero-banner {
+        padding: 0;
+      }
+      .hero-banner p {
+        max-width: 45rem;
+      }
+    }
+    /*
+=============== 
+About
+===============
+*/
+    /* section add to globals */
+    /* title add to globals */
+    /* section center add to globals */
+    .about-img,
+    .about-info {
+      margin-bottom: 2rem;
+    }
+    @media screen and (min-width: 992px) {
+      .about-center {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+      .about-img,
+      .about-info {
+        flex: 0 0 calc(50% - 2rem);
+        margin-bottom: 0;
+        align-self: center;
+      }
+    }
+    @media screen and (min-width: 1170px) {
+      .about-img::before {
+        content: "";
+        position: absolute;
+        border: 0.5rem solid var(--clr-primary-5);
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        top: -1.5rem;
+        left: -1.5rem;
+        /* z-index: -1; */
+      }
+      .about-img {
+        position: relative;
+      }
+      .about-photo {
+        position: relative;
+      }
+    }
+
+    /*
+=============== 
+Services
+===============
+*/
+    .services {
+      background: var(--clr-white);
+    }
+    .service {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    .service-icon {
+      background: var(--clr-primary-5);
+      color: var(--clr-primary-1);
+      padding: 0.5rem;
+      display: inline-block;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+    .service-text {
+      max-width: 20rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    @media screen and (min-width: 576px) {
+      .services-center {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+      .service {
+        flex: 0 0 calc(50% - 1rem);
+        margin-bottom: 1rem;
+      }
+    }
+    @media screen and (min-width: 992px) {
+      .service {
+        flex: 0 0 calc(33.333% - 1rem);
+      }
+    }
+    @media screen and (min-width: 1170px) {
+      .service {
+        display: flex;
+        text-align: left;
+      }
+      .service-icon {
+        align-self: start;
+      }
+      .service-info {
+        padding-left: 1rem;
+      }
+      .service-title {
+        margin-bottom: 0.5rem;
+      }
+    }
+    /*
+=============== 
+Featured Tours
+===============
+*/
+    .tour-card {
+      transition: var(--transition);
+      background: var(--clr-grey-10);
+      box-shadow: var(--light-shadow);
+      margin-bottom: 2rem;
+    }
+    .tour-card:hover {
+      box-shadow: var(--dark-shadow);
+      transform: scale(1.02);
+    }
+    .tour-img-container {
+      position: relative;
+    }
+    .tour-img {
+      height: 15rem;
+      object-fit: cover;
+    }
+    .tour-date {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      background: var(--clr-primary-8);
+      margin-bottom: 0;
+      color: var(--clr-primary-1);
+      text-transform: capitalize;
+      padding: 0.25rem 0.5rem;
+    }
+    .tour-info {
+      padding: 1.25rem 1.5rem;
+    }
+    /* extra css */
+    .tour-title {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .tour-title p,
+    .tour-title h4 {
+      margin-bottom: 0.75rem;
+      line-height: 1.25;
+    }
+    .tour-title p {
+      color: var(--clr-grey-7);
+    }
+    .tour-footer {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .tour-footer p {
+      line-height: 0;
+      margin-bottom: 0;
+      text-transform: capitalize;
+      color: var(--clr-primary-5);
+    }
+    .tour-btn {
+      text-align: center;
+    }
+    @media screen and (min-width: 768px) {
+      .featured-center {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      .tour-card {
+        flex: 0 0 calc(50% - 2rem);
+      }
+    }
+    @media screen and (min-width: 1170px) {
+      .tour-card {
+        flex: 0 0 calc(33.333% - 2rem);
+      }
+    }
+    /*
+=============== 
+Contact
+===============
+*/
+    .contact {
+      background: var(--clr-primary-5);
+    }
+    .contact-title {
+      color: var(--clr-white);
+    }
+    .contact-title p {
+      color: var(--clr-primary-8);
+    }
+    .contact-form {
+      display: flex;
+      max-width: 28rem;
+    }
+    .form-control {
+      flex: 1 1 auto;
+      color: var(--clr-grey-5);
+    }
+    .form-control,
+    .btn-submit {
+      padding: 0.375rem 0.75rem;
+      font-size: 1rem;
+      line-height: 1.5;
+      font-weight: 300;
+      letter-spacing: var(--spacing);
+      background: var(--clr-white);
+      text-transform: capitalize;
+      border: transparent;
+    }
+    .form-control::placeholder {
+      color: inherit;
+    }
+    .btn-submit {
+      font-family: var(--ff-primary);
+      margin-left: 0.5rem;
+      background: var(--clr-primary-8);
+      color: var(--clr-primary-1);
+      cursor: pointer;
+      transition: var(--transition);
+    }
+    .btn-submit:hover {
+      background: var(--clr-primary-1);
+      color: var(--clr-primary-5);
+    }
+    @media screen and (min-width: 992px) {
+      .contact-center {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      .contact-form {
+        align-self: flex-start;
+        flex: 1 1 auto;
+        max-width: 100%;
+        padding-left: 2rem;
+      }
+    }
+    /*
+=============== 
+Gallery
+===============
+*/
+    .gallery-img-container {
+      position: relative;
+      background: var(--clr-primary-5);
+    }
+    .gallery-icon {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      font-size: 2rem;
+      transform: translate(-50%, -50%);
+      color: var(--clr-white);
+      opacity: 0;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+    .gallery-img {
+      height: 17rem;
+      object-fit: cover;
+      transition: var(--transition);
+    }
+    .gallery-img-container:hover .gallery-img {
+      opacity: 0.5;
+    }
+    .gallery-img-container:hover .gallery-icon {
+      opacity: 1;
+    }
+    @media screen and (min-width: 768px) {
+      .gallery-center {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .gallery-img-container {
+        flex: 0 0 50%;
+      }
+    }
+    @media screen and (min-width: 992px) {
+      .gallery-img-container {
+        flex: 0 0 25%;
+      }
+    }
+    /*
+=============== 
+Footer
+===============
+*/
+    .footer {
+      background: var(--clr-grey-1);
+      text-align: center;
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+    .footer-links,
+    .footer-icons {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 1.5rem;
+      flex-wrap: wrap;
+    }
+    .footer-link {
+      color: var(--clr-white);
+      text-transform: capitalize;
+      font-size: 1rem;
+      margin-right: 1rem;
+      letter-spacing: var(--spacing);
+      transition: var(--transition);
+    }
+    .footer-link:hover {
+      color: var(--clr-primary-5);
+    }
+    .footer-icon {
+      font-size: 2rem;
+      margin-right: 1rem;
+      color: var(--clr-primary-8);
+      transition: var(--transition);
+    }
+    .footer-icon:hover {
+      color: var(--clr-primary-5);
+    }
+    .copyright {
+      text-transform: capitalize;
+      letter-spacing: var(--spacing);
+      color: var(--clr-white);
+    }
+    .image0 {
+      width: 100%;
+    }
+    @media screen and (min-width: 992px) {
+      .image0 {
+        max-width: 50%;
+        margin-right: 28%;
+        margin-left: 28%;
+      }
+    }
+    .image0 {
+      margin-top: -5rem;
+    }
+    /* ON */
+    /*
+=============== 
+Fonts
+===============
+*/
+    @import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
+
+    /*
+=============== 
+Variables
+===============
+*/
+
+    /*
+=============== 
+Global Styles
+===============
+*/
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: var(--ff-primary);
+      background: var(--clr-white);
+      color: var(--clr-grey-1);
+      line-height: 1.5;
+      font-size: 0.875rem;
+    }
+    ul {
+      list-style-type: none;
+    }
+    a {
+      text-decoration: none;
+    }
+    img:not(.nav-logo) {
+      width: 100%;
+      display: block;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      letter-spacing: var(--spacing);
+      text-transform: capitalize;
+      line-height: 1.25;
+      margin-bottom: 0.75rem;
+    }
+    h1 {
+      font-size: 3rem;
+    }
+    h2 {
+      font-size: 2rem;
+    }
+    h3 {
+      font-size: 1.25rem;
+    }
+    h4 {
+      font-size: 0.875rem;
+    }
+    p {
+      margin-bottom: 1.25rem;
+      color: var(--clr-grey-5);
+    }
+    @media screen and (min-width: 800px) {
+      h1 {
+        font-size: 4rem;
+      }
+      h2 {
+        font-size: 2.5rem;
+      }
+      h3 {
+        font-size: 1.75rem;
+      }
+      h4 {
+        font-size: 1rem;
+      }
+      body {
+        font-size: 1rem;
+      }
+      h1,
+      h2,
+      h3,
+      h4 {
+        line-height: 1;
+      }
+    }
+    /*  global classes */
+
+    .btn {
+      text-transform: uppercase;
+      background: var(--clr-primary-5);
+      color: var(--clr-white);
+      padding: 0.375rem 0.75rem;
+      letter-spacing: var(--spacing);
+      display: inline-block;
+      /* font-weight: 700; */
+      transition: var(--transition);
+      font-size: 0.875rem;
+      border: 2px solid transparent;
+      cursor: pointer;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    }
+    .btn:hover {
+      color: var(--clr-primary-1);
+      background: var(--clr-primary-8);
+    }
+    .section {
+      padding: 5rem 0;
+    }
+    .section-title {
+      text-align: center;
+      margin-bottom: 4rem;
+    }
+    .section-title h2 {
+      text-transform: uppercase;
+    }
+    .section-title span {
+      color: var(--clr-primary-5);
+    }
+    .section-center {
+      width: 90vw;
+      margin: 0 auto;
+      max-width: 1170px;
+    }
+    @media screen and (min-width: 992px) {
+      .section-center {
+        width: 95vw;
+      }
+    }
+    /*
+=============== 
+Navbar
+===============
+*/
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: var(--clr-white);
+      box-shadow: var(--dark-shadow);
+      z-index: 2;
+    }
+    .nav-logo {
+      max-width: 27%;
+    }
+    .nav-icons {
+      display: none;
+    }
+    .nav-center {
+      width: 100%;
+      max-width: 1170px;
+      margin: 0 auto;
+    }
+    .nav-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+    }
+    .nav-toggle {
+      background: transparent;
+      border: transparent;
+      font-size: 1.5rem;
+      color: var(--clr-primary-5);
+      cursor: pointer;
+      transition: var(--transition);
+    }
+    .nav-toggle:hover {
+      transform: scale(1.2);
+    }
+    .nav-link {
+      display: block;
+      padding: 1rem 2rem;
+      text-transform: capitalize;
+      letter-spacing: var(--spacing);
+      transition: var(--transition);
+      color: var(--clr-grey-1);
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    .nav-link,
+    ul,
+    li {
+      justify-content: center;
+    }
+    .nav-link:hover {
+      color: var(--clr-primary-1);
+      background: var(--clr-primary-8);
+      padding-left: 2.25rem;
+    }
+    /* 280px */
+    .nav-links {
+      height: 0;
+      overflow: hidden;
+      transition: var(--transition);
+    }
+    .show-links {
+      height: 280px;
+    }
+    @media screen and (min-width: 992px) {
+      /* hide toggle button */
+      .navbar {
+        padding: 1rem 2rem;
+      }
+      .nav-toggle {
+        display: none;
+      }
+      .nav-center {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* optional */
+        flex-wrap: wrap;
+      }
+      .nav-links {
+        height: auto;
+        display: flex;
+      }
+      .nav-header {
+        padding: 0 0;
+      }
+      .nav-link {
+        padding: 0 0;
+        margin-right: 0.7rem;
+      }
+      .nav-link:hover {
+        padding: 0;
+        color: var(--clr-primary-5);
+        background: transparent;
+      }
+      .nav-icons {
+        display: flex;
+      }
+      .nav-icon {
+        margin-right: 0.7rem;
+        color: var(--clr-primary-5);
+        font-size: 1.2rem;
+        transition: var(--transition);
+      }
+      .nav-icon:hover {
+        color: var(--clr-primary-8);
+      }
+    }
+    /*
+=============== 
+Hero
+===============
+*/
+    .hero {
+      min-height: 100vh;
+      background: linear-gradient(rgb(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7)),
+        url("../images/main4.jpeg") center/cover no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .hero-banner {
+      text-align: center;
+      color: var(--clr-white);
+      padding: 0 3rem;
+    }
+    .hero-banner h1 {
+      text-transform: uppercase;
+    }
+    .hero-banner p {
+      max-width: 35rem;
+      margin-left: auto;
+      margin-right: auto;
+      color: var(--clr-white);
+      letter-spacing: var(--spacing);
+    }
+    .hero-btn {
+      padding: 0.9rem 1.6rem;
+      font-size: 1.25rem;
+      background: var(--clr-white);
+      color: var(--clr-primary-5);
+    }
+    .hero-btn:hover {
+      background: transparent;
+      color: var(--clr-white);
+      border-color: var(--clr-white);
+    }
+    @media screen and (min-width: 768px) {
+      .hero {
+        background: linear-gradient(rgb(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7)),
+          url("../images/main4.jpeg") center/cover no-repeat;
+      }
+      .hero-banner {
+        padding: 0;
+      }
+      .hero-banner p {
+        max-width: 45rem;
+      }
+    }
+    /*
+=============== 
+About
+===============
+*/
+    /* section add to globals */
+    /* title add to globals */
+    /* section center add to globals */
+    .about-img,
+    .about-info {
+      margin-bottom: 2rem;
+    }
+    @media screen and (min-width: 992px) {
+      .about-center {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+      .about-img,
+      .about-info {
+        flex: 0 0 calc(50% - 2rem);
+        margin-bottom: 0;
+        align-self: center;
+      }
+    }
+    @media screen and (min-width: 1170px) {
+      .about-img::before {
+        content: "";
+        position: absolute;
+        border: 0.5rem solid var(--clr-primary-5);
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        top: -1.5rem;
+        left: -1.5rem;
+        /* z-index: -1; */
+      }
+      .about-img {
+        position: relative;
+      }
+      .about-photo {
+        position: relative;
+      }
+    }
+
+    /*
+=============== 
+Services
+===============
+*/
+    .services {
+      /* background: var(--clr-grey-10); */
+    }
+    .service {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    .service-icon {
+      background: var(--clr-primary-5);
+      color: var(--clr-primary-1);
+      padding: 0.5rem;
+      display: inline-block;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+    .service-text {
+      max-width: 20rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    @media screen and (min-width: 576px) {
+      .services-center {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+      .service {
+        flex: 0 0 calc(50% - 1rem);
+        margin-bottom: 1rem;
+      }
+    }
+    @media screen and (min-width: 992px) {
+      .service {
+        flex: 0 0 calc(33.333% - 1rem);
+      }
+    }
+    @media screen and (min-width: 1170px) {
+      .service {
+        display: flex;
+        text-align: left;
+      }
+      .service-icon {
+        align-self: start;
+      }
+      .service-info {
+        padding-left: 1rem;
+      }
+      .service-title {
+        margin-bottom: 0.5rem;
+      }
+    }
+    /*
+=============== 
+Featured Tours
+===============
+*/
+    .tour-card {
+      transition: var(--transition);
+      background: var(--clr-grey-10);
+      box-shadow: var(--light-shadow);
+      margin-bottom: 2rem;
+    }
+    .tour-card:hover {
+      box-shadow: var(--dark-shadow);
+      transform: scale(1.02);
+    }
+    .tour-img-container {
+      position: relative;
+    }
+    .tour-img {
+      height: 15rem;
+      object-fit: cover;
+    }
+    .tour-date {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      background: var(--clr-primary-8);
+      margin-bottom: 0;
+      color: var(--clr-primary-1);
+      text-transform: capitalize;
+      padding: 0.25rem 0.5rem;
+    }
+    .tour-info {
+      padding: 1.25rem 1.5rem;
+    }
+    /* extra css */
+    .tour-title {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .tour-title p,
+    .tour-title h4 {
+      margin-bottom: 0.75rem;
+      line-height: 1.25;
+    }
+    .tour-title p {
+      color: var(--clr-grey-7);
+    }
+    .tour-footer {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .tour-footer p {
+      line-height: 0;
+      margin-bottom: 0;
+      text-transform: capitalize;
+      color: var(--clr-primary-5);
+    }
+    .tour-btn {
+      text-align: center;
+    }
+    @media screen and (min-width: 768px) {
+      .featured-center {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      .tour-card {
+        flex: 0 0 calc(50% - 2rem);
+      }
+    }
+    @media screen and (min-width: 1170px) {
+      .tour-card {
+        flex: 0 0 calc(33.333% - 2rem);
+      }
+    }
+    /*
+=============== 
+Contact
+===============
+*/
+    .contact {
+      background: var(--clr-primary-5);
+    }
+    .contact-title {
+      color: var(--clr-white);
+    }
+    .contact-title p {
+      color: var(--clr-primary-8);
+    }
+    .contact-form {
+      display: flex;
+      max-width: 28rem;
+    }
+    .form-control {
+      flex: 1 1 auto;
+      color: var(--clr-grey-5);
+    }
+    .form-control,
+    .btn-submit {
+      padding: 0.375rem 0.75rem;
+      font-size: 1rem;
+      line-height: 1.5;
+      font-weight: 300;
+      letter-spacing: var(--spacing);
+      background: var(--clr-white);
+      text-transform: capitalize;
+      border: transparent;
+    }
+    .form-control::placeholder {
+      color: inherit;
+    }
+    .btn-submit {
+      font-family: var(--ff-primary);
+      margin-left: 0.5rem;
+      background: var(--clr-primary-8);
+      color: var(--clr-primary-1);
+      cursor: pointer;
+      transition: var(--transition);
+    }
+    .btn-submit:hover {
+      background: var(--clr-primary-1);
+      color: var(--clr-primary-5);
+    }
+    @media screen and (min-width: 992px) {
+      .contact-center {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      .contact-form {
+        align-self: flex-start;
+        flex: 1 1 auto;
+        max-width: 100%;
+        padding-left: 2rem;
+      }
+    }
+    /*
+=============== 
+Gallery
+===============
+*/
+    .gallery-img-container {
+      position: relative;
+      background: var(--clr-primary-5);
+    }
+    .gallery-icon {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      font-size: 2rem;
+      transform: translate(-50%, -50%);
+      color: var(--clr-white);
+      opacity: 0;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+    .rl{
+      margin-top: -0.5rem;
+    }
+    .cn{
+      margin-top: -0.8rem;
+    }
+    .gallery-img {
+      height: 17rem;
+      object-fit: cover;
+      transition: var(--transition);
+    }
+    .gallery-img-container:hover .gallery-img {
+      opacity: 0.5;
+    }
+    .gallery-img-container:hover .gallery-icon {
+      opacity: 1;
+    }
+    @media screen and (min-width: 768px) {
+      .gallery-center {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .gallery-img-container {
+        flex: 0 0 50%;
+      }
+    }
+    @media screen and (min-width: 992px) {
+      .gallery-img-container {
+        flex: 0 0 25%;
+      }
+    }
+    /*
+=============== 
+Footer
+===============
+*/
+    .footer {
+      background: var(--clr-grey-1);
+      text-align: center;
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+    .footer-links,
+    .footer-icons {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 1.5rem;
+      flex-wrap: wrap;
+    }
+    .footer-link {
+      color: var(--clr-white);
+      text-transform: capitalize;
+      font-size: 1rem;
+      margin-right: 1rem;
+      letter-spacing: var(--spacing);
+      transition: var(--transition);
+    }
+    .footer-link:hover {
+      color: var(--clr-primary-5);
+    }
+    .footer-icon {
+      font-size: 2rem;
+      margin-right: 1rem;
+      color: var(--clr-primary-8);
+      transition: var(--transition);
+    }
+    .footer-icon:hover {
+      color: var(--clr-primary-5);
+    }
+    .copyright {
+      text-transform: capitalize;
+      letter-spacing: var(--spacing);
+      color: var(--clr-white);
+    }
+    @media screen and (min-width: 992px) {
+      .image0 {
+        max-width: 50%;
+        margin-right: 28%;
+        margin-left: 28%;
+      }
+    }
+    /* .form-container {
+  align-items: inherit;
+  flex: 1;
+  height: 100%;
+} */
+    /* forms */
+    .forms {
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+    .forms-p {
+      width: 60%;
+    }
+    .form-center {
+      justify-content: center;
+      border-radius: var(--radius);
+      text-align: center;
+    }
+    .form-phrase {
+      width: 65%;
+    }
+    .submit-btn {
+      text-transform: uppercase;
+      background: #2a6abd;
+      color: var(--clr-white);
+      padding: 0.5rem 1.5rem;
+      letter-spacing: var(--spacing);
+      display: inline-block;
+      /* font-weight: 700; */
+      transition: var(--transition);
+      font-size: 0.875rem;
+      border: 2px solid transparent;
+      cursor: pointer;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+      border-radius: 100px;
+    }
+    .submit-btn:hover {
+      color: var(--clr-primary-1);
+      background: var(--clr-white);
+    }
+
+    .small-form {
+      color: #b3b3b3;
+    }
+    .small-form a {
+      color: #b3b3b3;
+      text-decoration: underline;
+    }
+
+    /* message */
+
+    .typically {
+      text-align: center;
+      font-size: large;
+    }
+
+    .iconss {
+      text-align: center;
+      font-size: xx-large;
+    }
+    .type {
+      text-align: center;
+    }
+    @media screen and (min-width: 400px) {
+      textarea:focus {
+        height: 9.5em;
+        width: 50%;
+      }
+    }
+    
+
+    .footers {
+      text-align: center;
+      padding: 1.6rem 0;
+      background: #2c66b3;
+      color: #fff;
+      margin-top: 0.6rem;
+    }
+    .footerss {
+      text-align: center;
+      padding: 1.8rem 0;
+      background: var(--clr-grey-1);
+      color: #fff;
+    }
+    .conet {
+      text-align: center;
+      margin-bottom: 1rem;
+      margin-top: 0.2rem;
+    }
+    .conet,
+    h2 {
+      font-size: 155%;
+    }
+    .all {
+      display: flex;
+      justify-content: center;
+    }
+    li {
+      text-decoration: none;
+    }
+    .phrase {
+      padding: 1rem 1.9rem;
+      background-color: #2a6abd;
+      margin-top: -0.9rem;
+      border-radius: 2rem;
+      color: var(--clr-white);
+    }
+    .all,
+    li {
+      font-size: 110%;
+      list-style: none;
+      gap: 1.5rem;
+    }
+    @media screen and (min-width: 700px) {
+      .all,
+      li {
+        gap: 7rem;
+      }
+    }
+  </style>
+  <body>
+    <!-- header  -->
+    <header id="home">
+      <!-- navbar -->
+      <nav class="navbar">
+        <div class="nav-center">
+          <!-- nav header -->
+          <div class="nav-header">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/SpaceX_logo_black.svg/1024px-SpaceX_logo_black.svg.png"
+              class="nav-logo"
+              alt=""
+            />
+<!--             <button type="button" class="nav-toggle" id="nav-toggle">
+              <i class="fas fa-bars"></i> -->
+            </button>
+          </div>
+          <!-- end of nav header -->
+          <!-- nav links -->
+          <ul class="nav-links" id="nav-links">
+            <!-- single link -->
+            <li>
+              <a href="#home" class="nav-link scroll-link">home</a>
+            </li>
+            <!-- end of single link -->
+            <!-- single link -->
+            <li>
+              <a href="#about" class="nav-link scroll-link">about</a>
+            </li>
+            <!-- end of single link -->
+            <!-- single link -->
+            <li>
+              <a href="#services" class="nav-link scroll-link">Participate</a>
+            </li>
+            <!-- end of single link -->
+            <!-- single link -->
+            <li>
+              <a href="#tours" class="nav-link scroll-link">Winners</a>
+            </li>
+            <!-- end of single link -->
+            <!-- single link -->
+            <li>
+              <a href="#gallery" class="nav-link scroll-link">spaceX</a>
+            </li>
+            <!-- end of single link -->
+          </ul>
+          <!-- end of nav links -->
+          <!-- nav icons -->
+          <ul class="nav-icons">
+            <!-- single icon -->
+            <li>
+              <a
+                href="https://web.facebook.com/groups/elonmusk1/?_rdc=1&_rdr"
+                target="_blank"
+                class="nav-icon"
+              >
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <!-- end of single icon -->
+            <!-- single icon -->
+            <li>
+              <a
+                href="https://twitter.com/elonmusk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                target="_blank"
+                class="nav-icon"
+              >
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+            </li>
+            <!-- end of single icon -->
+            <!-- single icon -->
+            <li>
+              <a
+                href="https://www.instagram.com/spacex/?hl=en"
+                target="_blank"
+                class="nav-icon"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <!-- end of single icon -->
+          </ul>
+          <!-- end of nav icons -->
+        </div>
+      </nav>
+      <!-- hero -->
+ <br>
+       <br>
+      <br>
+      <br>
+      <br />
+      <!-- end of section-title -->
+      <div class="section-center about-center">
+        <!-- about img wrapper -->
+        <article class="about-img">
+          <img
+            src="https://pbs.twimg.com/media/EbnwlewWAAEg_XH?format=jpg&name=large"
+            class="about-photo"
+            alt="awesome beach"
+          />
+        </article>
+        <!-- about info -->
+        <article class="about-info">
+          <h3 class="cn">How to Participate?</h3>
+          <p class="cn">
+            Win up to 5,000 BITCOIN / ETHEREUM🔥 Giveaway by Elon musk. You can participate in this huge crypto giveaway from any part of the world.
+
+
+          </p>
+          <h3 class="rl">Rules to follow</h3>
+          <p class="rl">
+            Connect your wallet, then answer the questions about spaceX and Elon Musk foundation correctly. You can only participate once.
+          <br>
+NOTE: ✅ This prize can only be claimed for active crypto wallet that have a history of transactions.🎁
+          </p>
+          <a href="#services" class="btn"> Get Started</a>
+        </article>
+      </div>
+    </section>
+    <!-- end of about section -->
+
+    <!-- services -->
+    <section class="section services" id="services">
+      <!-- section-title -->
+      <div class="section-title">
+        <br />
+        <h2>CONNECT YOUR WALLET TO <span>PROCEED</span></h2>
+      </div>
+      <!-- end of section-title -->
+      <div class="section-center services-center">
+        <!-- single service -->
+
+        <!-- end of single service -->
+      </div>
+    </section>
+    <!-- end of services -->
+    <a href="about.html">
+      <img
+        src="https://images.hive.blog/DQmQwtHwGQhwRies6ucpN1ytETwJqtovLz5Kd6FkR8aa4Ro/image.png"
+        class="image0"
+        alt=""
+      />
+    </a>
+    <!-- featured tours -->
+    <section class="section" id="services">
+      <!-- section-title -->
+      <div class="section-title">
+        <h2>TESTIMONY FROM<span> PARTICIPANT🔥 </span></h2>
+      </div>
+      <!-- end of section-title -->
+      <!-- featured-center -->
+      <div class="section-center featured-center">
+        <!-- single tour -->
+        <article class="tour-card" id="tours">
+          <div class="tour-img-container">
+            <img
+              src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*ZlUEpcGg_fHLuKDptCPsmw.jpeg"
+              class="tour-img"
+              alt=""
+            />
+            <p class="tour-date">1st Winner</p>
+          </div>
+          <!-- tour info -->
+          <div class="tour-info">
+            <div class="tour-title">
+              <h4>Message from Laura</h4>
+              <!-- <p>6 days</p> -->
+            </div>
+            <p>
+              I'm Laura from Australia, I won $42,000 worth of bitcoin from Elon
+              Musk spaceX foundation and today am a big Business owner. Thank
+              you Elon Musk and spaceX.
+            </p>
+            <div class="tour-footer">
+              <p>
+                <span>
+                  <i class="fas fa-map"></i>
+                  Australia
+                </span>
+              </p>
+              <p>Winning $42,000</p>
+            </div>
+          </div>
+        </article>
+        <!-- end of single tour -->
+        <!-- single tour -->
+        <article class="tour-card">
+          <div class="tour-img-container">
+            <img
+              src="https://loveconnection.org/wp-content/uploads/2022/06/pexels-andrea-piacquadio-874158-1.jpg"
+              class="tour-img"
+              alt=""
+            />
+            <p class="tour-date">2nd Winner</p>
+          </div>
+          <!-- tour info -->
+          <div class="tour-info">
+            <h4>Message from Austin</h4>
+            <p>
+              Hello everyone, I'm Austin from canada. I won $168,000 from Elon
+              musk and spaceX foundation. Now I can finally study in my dream
+              school. Thank you Elon musk and spaceX foundation. This site
+              changed my life.
+            </p>
+            <div class="tour-footer">
+              <p>
+                <span>
+                  <i class="fas fa-map"></i>
+                  Canada
+                </span>
+              </p>
+              <!-- <p>11 days</p> -->
+              <p>Winning $168,000</p>
+            </div>
+          </div>
+        </article>
+        <!-- end of single tour -->
+        <!-- single tour -->
+        <article class="tour-card">
+          <div class="tour-img-container">
+            <img
+              src="https://www.blabber.one/static/media/blabber_main.3b15b81bc3e2b8dcea63.jpg"
+              class="tour-img"
+              alt=""
+            />
+            <p class="tour-date">3rd Winner</p>
+          </div>
+          <!-- tour info -->
+          <div class="tour-info">
+            <h4>Message from Allison</h4>
+            <p>
+              Hello, I'm Aliison from USA. I won $50,000 on this site to sponsor
+              my kids and I say a very big thank you to spaceX and Elon Musk
+              foundation.
+            </p>
+            <div class="tour-footer">
+              <p>
+                <span>
+                  <i class="fas fa-map"></i>
+                  USA (America)
+                </span>
+              </p>
+              <!-- <p>8 days</p> -->
+              <p>Winning $50,000</p>
+            </div>
+          </div>
+        </article>
+        <!-- end of single tour -->
+        <!-- single tour -->
+        <article class="tour-card">
+          <div class="tour-img-container">
+            <img
+              src="https://www.zoryacapital.com/wp-content/uploads/2022/09/pexels-anderson-guerra-1197132.jpg"
+              class="tour-img"
+              alt=""
+            />
+            <p class="tour-date">4th Winner</p>
+          </div>
+          <!-- tour info -->
+          <div class="tour-info">
+            <h4>message from Kira</h4>
+            <p>
+              Hello I'm Kira, I won $89,000 from this site and I say a very big
+              thank you to Elon Musk and spaceX foundation for this great
+              opportunity. You all should participate so you can stand a chance
+              to win.
+            </p>
+            <div class="tour-footer">
+              <p>
+                <span>
+                  <i class="fas fa-map"></i>
+                  Germany
+                </span>
+              </p>
+              <!-- <p>20 days</p> -->
+              <p>Winning $89,000</p>
+            </div>
+          </div>
+        </article>
+        <!-- end of single tour -->
+      </div>
+      <div class="tour-btn">
+        <a href="#" class="btn">Home</a>
+      </div>
+    </section>
+    <!-- end of featured tours -->
+
+    <!-- contact -->
+    <section class="section contact" id="contact">
+      <div class="section-center contact-center">
+        <!-- contact title -->
+        <article class="contact-title">
+          <h3>For more questions send us an email?</h3>
+          <p>Sign up for newsletter and stay up to date</p>
+        </article>
+        <!-- contact form -->
+        <form
+          action=""
+          method="post"
+          class="contact-form"
+        >
+          <input
+            type="email"
+            name="email"
+            class="form-control"
+            placeholder="your email"
+          />
+          <button type="submit" class="btn-submit">→</button>
+        </form>
+      </div>
+    </section>
+    <!-- end of contact -->
+
+    <!-- gallery  -->
+    <section id="gallery">
+      <div class="gallery-center">
+        <!-- single item -->
+        <article class="gallery-img-container">
+          <img
+            src="https://www.ultramotor.com/wp-content/uploads/2022/12/2-9-846x515.jpg"
+            class="gallery-img"
+            alt=""
+          />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single item -->
+
+        <!-- single item -->
+        <article class="gallery-img-container">
+          <img
+            src="https://media.wired.com/photos/6470f50df2de86183cf5b40f/master/pass/Business-Cybertruck-Leaked-Report-Teslas-1241146635.jpg"
+            class="gallery-img"
+            alt=""
+          />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single item -->
+        <!-- single item -->
+        <article class="gallery-img-container">
+          <img
+            src="https://www.investopedia.com/thmb/gExYxKhBXyMO146qcBSySfkSE3c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1494888410-c8b4c4bc55814f31bc437713b8467636.jpg"
+            class="gallery-img"
+            alt=""
+          />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single item -->
+        <!-- single item -->
+        <article class="gallery-img-container">
+          <img
+            src="https://www.ultramotor.com/wp-content/uploads/2022/12/2-9-846x515.jpg"
+            class="gallery-img"
+            alt=""
+          />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single item -->
+        <!-- single item -->
+        <article class="gallery-img-container">
+          <img
+            src="https://pbs.twimg.com/media/FwTbumNXgAAk5r6?format=jpg&name=medium"
+            class="gallery-img"
+            alt=""
+          />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single item -->
+        <!-- single item -->
+        <article class="gallery-img-container">
+          <img
+            src="https://images.pexels.com/photos/10029879/pexels-photo-10029879.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            class="gallery-img"
+            alt=""
+          />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single item -->
+        <!-- single item -->
+        <article class="gallery-img-container">
+          <img
+            src="https://images.pexels.com/photos/3954401/pexels-photo-3954401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            class="gallery-img"
+            alt=""
+          />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single item -->
+        <!-- single item -->
+        <article class="gallery-img-container">
+          <img
+            src="https://images.pexels.com/photos/10549262/pexels-photo-10549262.jpeg"
+            class="gallery-img"
+            alt=""
+          />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single item -->
+      </div>
+    </section>
+    <!-- end of gallery  -->
+
+    <!-- footer -->
+    <footer class="section footer">
+      <!-- footer links -->
+      <ul class="footer-links">
+        <!-- single link -->
+        <li>
+          <a href="#home" class="footer-link scroll-link">home</a>
+        </li>
+        <!-- end of single link -->
+        <!-- single link -->
+        <li>
+          <a href="#home" class="footer-link scroll-link">about</a>
+        </li>
+        <!-- end of single link -->
+        <!-- single link -->
+        <li>
+          <a href="#services" class="footer-link scroll-link">connect</a>
+        </li>
+        <!-- end of single link -->
+        <!-- single link -->
+        <li>
+          <a href="#tours" class="footer-link scroll-link">Winners</a>
+        </li>
+        <!-- end of single link -->
+        <!-- single link -->
+        <li>
+          <a href="#gallery" class="footer-link scroll-link">spaceX</a>
+        </li>
+        <!-- end of single link -->
+      </ul>
+      <!-- end of footer links -->
+      <!-- footer icons -->
+      <ul class="footer-icons">
+        <!-- single icon -->
+        <li>
+          <a
+            href="https://web.facebook.com/groups/elonmusk1/?_rdc=1&_rdr"
+            target="_blank"
+            class="footer-icon"
+          >
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <!-- end of single icon -->
+        <!-- single icon -->
+        <li>
+          <a
+            href="https://twitter.com/elonmusk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+            target="_blank"
+            class="footer-icon"
+          >
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+        </li>
+        <!-- end of single icon -->
+        <!-- single icon -->
+        <li>
+          <a
+            href="https://www.instagram.com/spacex/?hl=en"
+            target="_blank"
+            class="footer-icon"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <!-- end of single icon -->
+      </ul>
+      <!-- end of footer icons -->
+      <p class="copyright">
+        copyright &copy; Elon Musk Tesla and spaceX company
+        <span id="date"></span>. all rights reserved
+      </p>
+    </footer>
+    <!-- js -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>
